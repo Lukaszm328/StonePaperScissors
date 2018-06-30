@@ -1,0 +1,135 @@
+body{
+	background-image: url("/images/background.jpg") ;
+	 background-repeat: no-repeat;
+	 background-color: black;
+	background-position: center;
+	padding-top: 50px;
+	
+}
+
+#main{
+	width: 600px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#logo{
+	width: 600px;
+	height: 50px;
+	border: 1px solid black;
+	text-align:center;
+}
+#logo_text{
+	padding: 3px;
+	font-family: Arial;
+	font-size: 19px;
+	padding-top:15px;
+	color: black;
+}
+
+#body{
+	width: 600px;
+	height: 400px;
+	border: 1px solid black;
+	margin: 50px;
+	background-color:white;
+	box-shadow:0 0 13px white;
+	 opacity: 0.93;
+  filter: alpha(opacity=93);
+}
+
+#play_place{
+	width: 600px;
+	height: 250px;
+	border: 1px solid black;
+}
+
+#name{
+	padding: 4px;
+	background-color: yellow;
+	font-family: Arial;
+}
+
+#option{
+	float: center;
+	background-color: blue;
+}
+
+#player1{
+	width: 297px;
+	height: 250px;
+	border: 1px solid black;
+	float: left;
+}
+
+#player2{
+	width: 299px;
+	height: 250px;
+	border: 1px solid black;
+	float: right;
+}
+
+#player1_chose{
+	padding: 5px;
+	margin: 0 auto;
+}
+
+#player2_chose{
+	padding: 5px;
+}
+
+#player1_score{
+	font-family: Arial;
+	font-size: 15px;
+	color: blue;
+	font-weight: bold;
+	padding: 4px;
+}
+
+#player2_score{
+	font-family: Arial;
+	font-size: 15px;
+	color: blue;
+	font-weight: bold;
+	padding: 4px;
+}
+
+#round{
+	font-family: Arial;
+	font-size: 20px;
+	color: red;
+	padding: 5px;
+}
+
+#who_won{
+	padding: 3px;
+	font-family: Arial;
+	font-size: 18px;
+	float: center;
+	font-weight: bold;
+	text-align:center;
+}
+
+#version{
+	padding: 3px;
+	font-family: Arial;
+	font-size: 11px;
+}
+
+/* Buttons */
+
+input#kamien{
+	margin: 8px;
+	
+}
+
+input#papier{
+		margin: 8px;
+}
+
+input#nozyce{
+		margin: 8px;
+}
+
+
+

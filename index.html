@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="Author" content="LK"/>
+    <!--  CSS  -->
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>    
+    <!--  JS  -->
+    <script type='text/javascript' src='js/game.js'></script>
+	<!--  jQuery  -->
+	<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <title>Kamień, papier, nożyce</title>
+</head>
+<body>
+
+<div id="main">
+				<div id="body">
+				<div id="logo"><div id="logo_text">Game - kamień, papier, nożyce</div></div>
+				<div id="play_place">
+				<div id="player1"><div id="name">Player</div> 
+								  <div id="option"><img src="images/player.jpg" height="51" align="middle">
+								  <input type="button" value="Kamień" id="kamien" onclick="game_start('0'); game_chose_save_to_db('0');">
+				                  <input type="button" value="Papier" id="papier" onclick="game_start('1'); game_chose_save_to_db('1');">
+								  <input type="button" value="Nożyce" id="nozyce" onclick="game_start('2'); game_chose_save_to_db('2');">
+								  </div>
+								  <div id="player1_score">Score: </div> 
+								  <div id="player1_chose"></div>								  
+				</div>
+				<div id="player2"><div id="name">AI</div><img src="images/ai.jpg" height="51" align="middle">
+						 <div id="player2_score">Score: </div>
+						 <div id="player2_chose"></div>						 		  
+				</div>
+				</div>
+				<div id="round">Round : 1</div>
+				<div id="who_won"></div>
+				<div id="version">Version 1.3.2</div>
+				</div>
+				</div>
+</body>
