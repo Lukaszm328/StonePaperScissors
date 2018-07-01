@@ -1,5 +1,5 @@
 # StonePaperScissors
-Gra webowa kamień papier nożyce.
+Gra webowa kamień papier nożyce używająca sztucznej inteligencji do uczenia się ruchów przeciwników.
 ## Podgląd
 ![StonePaperScissors Preview](https://github.com/Lukaszm328/StonePaperScissors/blob/master/preview.png?raw=true)
 ## Technologie 
